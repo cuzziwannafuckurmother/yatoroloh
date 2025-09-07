@@ -7,49 +7,71 @@
     <meta name="description" content="Лучший в мире сайт разработчиков вспомогательных ресурсов для Dota2">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
-<body>
-    <header>
-        <a href="index.html">Логотип</a>
+<body style="
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+">
+
+    <!-- Остальное содержимое вашего сайта -->
+    <header style="background: rgba(0,0,0,0.8); padding: 20px; color: white;">
+        <a href="index.html" style="color: white; text-decoration: none; font-weight: bold; font-size: 24px;">Логотип</a>
         <nav>
-            <ul>
-                <li><a href="index.html">Главная</a>
-
-                <li><a href="about.html">О нас</a>
-
-                <li><a href="contacts.html">Контакты</a>
+            <ul style="list-style: none; display: flex; gap: 20px; margin: 0; padding: 0;">
+                <li><a href="index.html" style="color: white; text-decoration: none;">Главная</a></li>
+                <li><a href="about.html" style="color: white; text-decoration: none;">О нас</a></li>
+                <li><a href="contacts.html" style="color: white; text-decoration: none;">Контакты</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <h1>Добро пожаловать на Dota2ITCompany!</h1>
-        <h1>Олечка, ты лучшая!</h1>
+    <main style="padding: 20px;">
+        <div style="background: rgba(255,255,255,0.9); padding: 30px; border-radius: 15px; margin-bottom: 20px;">
+            <h1>Добро пожаловать на Dota2ITCompany!</h1>
+            <h2>Олечка, ты лучшая!</h2>
+        </div>
 
-        <section id="services">
+        <section id="services" style="background: rgba(255,255,255,0.9); padding: 30px; border-radius: 15px; margin-bottom: 20px;">
             <h2>Наши услуги</h2>
-            <li>Создание и поддержка веб-приложений</li>
-            <li>Разработка мобильных приложений</li>
-            <li>Облачные решения и DevOps</li>
-            <li>Data Analytics и бизнес-аналитика</li>
-            <a href="#contacts">Связаться с нами</a>
+            <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 10px;">✓ Создание и поддержка веб-приложений</li>
+                <li style="margin-bottom: 10px;">✓ Разработка мобильных приложений</li>
+                <li style="margin-bottom: 10px;">✓ Облачные решения и DevOps</li>
+                <li style="margin-bottom: 20px;">✓ Data Analytics и бизнес-аналитика</li>
+            </ul>
+            <a href="#contacts" style="background: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Связаться с нами</a>
         </section>
 
-        <section id="portfolio">
+        <section id="portfolio" style="background: rgba(255,255,255,0.9); padding: 30px; border-radius: 15px; margin-bottom: 20px;">
             <h2>Портфолио</h2>
-            <li>Разработка интерактивного веб-приложения для онлайн-бронирования с системой учета занятости и интеграцией с календарями. Создание корпоративного портала для внутреннего документооборота с электронной цифровой подписью и системой уведомлений.</li>
-            <li>Создание мобильного приложения для доставки еды с геолокацией, онлайн-оплатой и трекингом курьера в реальном времени. Разработка fitness-приложения с персональными тренировками и синхронизацией данных с умными часами и фитнес-трекерами.</li>
-            <li>Миграция IT-инфраструктуры медицинского центра в облако с обеспечением HIPAA-совместимости и автоматическим масштабированием. Внедрение CI/CD pipeline для fintech-стартапа с автоматическим тестированием и деплоем в три окружения.</li>
-            <li>Разработка дашборда для анализа продаж розничной сети с прогнозированием спроса и выявлением аномалий. Внедрение системы бизнес-аналитики для логистической компании с визуализацией KPI и автоматической генерацией отчетов.</li>
-            <a href="about.html">О нас</a>
+            <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px;">
+                    <strong>Веб-приложения:</strong> Разработка интерактивного веб-приложения для онлайн-бронирования...
+                </li>
+                <li style="margin-bottom: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px;">
+                    <strong>Мобильные приложения:</strong> Создание мобильного приложения для доставки еды...
+                </li>
+                <li style="margin-bottom: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px;">
+                    <strong>Облачные решения:</strong> Миграция IT-инфраструктуры медицинского центра...
+                </li>
+                <li style="margin-bottom: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px;">
+                    <strong>Аналитика:</strong> Разработка дашборда для анализа продаж розничной сети...
+                </li>
+            </ul>
+            <a href="about.html" style="background: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">О нас</a>
         </section>
         
-        <section id="contacts">
+        <section id="contacts" style="background: rgba(255,255,255,0.9); padding: 30px; border-radius: 15px; margin-bottom: 20px;">
             <h2>Связь с нами</h2>
-            <a href="about.html">Наши контакты</a>
+            <a href="about.html" style="background: #dc3545; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Наши контакты</a>
         </section>
     </main>
-    <!-- Подвал сайта -->
-    <footer>
+
+    <footer style="background: rgba(0,0,0,0.9); color: white; padding: 20px; text-align: center;">
         <p>&copy; 2025 Dota2ITCompany. Все права защищены.</p>
         <p>Телефон: +7 (666) 999-66-99</p>
     </footer>
